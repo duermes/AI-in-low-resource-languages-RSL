@@ -1,0 +1,174 @@
+\documentclass[12pt,twoside,titlepage]{ingenius}
+\usepackage[figuresright]{rotating}
+\usepackage{pgfplots} 
+\pgfplotsset{compat=1.7}
+\usepackage{adjustbox}
+\usepackage{units}
+\usepackage{dblfloatfix}
+\usepackage{amssymb}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{bm}
+\usepackage{textcomp}
+\usepackage{pifont}
+\usepackage{cite}
+\usepackage{xcolor,colortbl}
+\usepackage{amsmath}
+\usepackage{upgreek}
+\usepackage{graphicx}
+\usepackage{tikz}%flujogramas
+\usepackage{pifont}
+\usetikzlibrary{shapes,arrows}
+\usepackage{textcomp}
+\usepackage{multirow}
+\usepackage{float}
+\usepackage{soul}
+\usepackage{rotating}
+\usepackage{hyperref}
+\usepackage{booktabs}
+\usepackage{algorithmic}
+\usepackage[ruled,vlined,algo2e]{algorithm2e}
+\usepackage{algorithm}
+%\usepackage{fancyhdr}
+%\pagestyle{fancy}
+\makeatletter
+\renewcommand*{\ALG@name}{Algoritmo}
+\makeatother
+\graphicspath{{figures/}}
+%===========================================
+%========
+\usepackage{tikz,xcolor,hyperref}
+% Make Orcid icon
+\definecolor{lime}{HTML}{A6CE39}
+\DeclareRobustCommand{\orcidicon}{%
+	\begin{tikzpicture}
+	\draw[lime, fill=lime] (0,0) 
+	circle [radius=0.16] 
+	node[white] {{\fontfamily{qag}\selectfont \tiny ID}};
+	\draw[white, fill=white] (-0.0625,0.095) 
+	circle [radius=0.007];
+	\end{tikzpicture}
+	\hspace{-2mm}
+}
+\foreach \x in {A, ..., Z}{%
+	\expandafter\xdef\csname orcid\x\endcsname{\noexpand\href{https://orcid.org/\csname orcidauthor\x\endcsname}{\noexpand\orcidicon}}
+}
+%========================================================
+\titulo{Inteligencia artificial y accesibilidad educativa en lenguas de bajos recursos: una revisión sistemática de usos, desafíos y oportunidades}
+\tituloa{A Systematic Review of Artificial Intelligence for Improving Educational Accessibility in Low-Resource Languages: Uses, Challenges, and Opportunities}
+%========================================================
+\newcommand{\orcidauthorA}{0000-0002-7645-8793}
+\newcommand{\orcidauthorB}{0000-0002-0837-0642}
+\newcommand{\orcidauthorC}{0000-0002-4704-1067}
+\autores{Lorena Kim Negrillo $^{1}$,\orcidA{}}
+\adscripcionautor{%
+$^{1}$ Lorena Kim Negrillo, Faculdad de Ingeniería de Software, Universidad Tecnológica del Perú, Lima, Perú, e-mail: U22229186@utp.edu.pe\\
+}
+
+%%Datos para referencias
+\newcommand{\apellido}{Kim Negrillo.}% Apellido o apellidos para referencia 
+\newcommand{\titu}{Revisión sistemática sobre inteligencia artificial para mejorar la accesibilidad educativa en lenguas de bajos recursos: usos, desafíos y oportunidades}%titulo a la ref\erencia
+\newcommand{\tipo}{Art\'iculo Cient\'if{}ico / Scientif{}ic Paper} 
+%tipo de documento Punto de vista/Point of view,  Art\'iculo Cient\'if{}ico / Scientif{}ic Paper, Rese\~na bibliogr\'afica/Review
+%========================================================
+%%Datos para propiedades del pdf no requiere ser llenado
+\newcommand{\autor}{}%autor para propiedades del pdf
+\newcommand{\pc}{}%palabras clave para propiedades del pdf
+\newcommand{\kw}{}%keywords para propiedades del pdf
+\usepackage{xcolor}
+\usepackage{color}
+\input{configuracion_paquetes}
+%\input{config_c}
+\usepackage{listings}%% lista de códigos
+	\lstset{ 
+		linewidth=0.5\textwidth,
+		frame=tb,	
+		%framerule=0.5pt,
+		aboveskip=0.5cm,%Distancia Texto al codigo
+		%framextopmargin=3pt,%Distancia Primera Linea-Borde Superior
+		framexbottommargin=3pt,%Distancia Ultima Linea-Borde Inferior
+		%framexleftmargin=0.4cm,%Distancia Borde Izquierdo Codigo-Borde Izquierdo Pagina
+		framesep=0pt,
+		rulesep=.8pt,%Espesor linea junto a los numeros
+		backgroundcolor=\color{gray!10},
+                     numbersep=5pt,
+                     xleftmargin=3pt,
+                     xrightmargin=8.5pt,
+                     framextopmargin=10pt,
+		rulesepcolor=\color{black},
+		stringstyle=\ttfamily,
+		floatplacement=htb,
+		boxpos={c},
+		breaklines=true,
+		breakatwhitespace=true,
+		showstringspaces = false,
+		basicstyle=\small\ttfamily,
+		commentstyle=\color{gray!45},
+		keywordstyle=\bfseries,
+		%linewidth=0.8\textwidth,
+		title=\lstname,
+		%numbers=right,%Posicion de los Numeros left=izquierda; right=derecha
+		%numbersep=15pt, %separacion de numero 1,2,3,4 hacia el frame
+		numberstyle=\tiny,
+		numberfirstline = false,
+		breaklines=true,
+		}
+	\lstnewenvironment{listing}[1][]
+		{\lstset{#1}\pagebreak[0]}{\pagebreak[0]}
+		\lstdefinestyle{consola}
+		{basicstyle=\scriptsize\bf\ttfamily,
+		 backgroundcolor=\color{gray75},
+		}
+	\lstdefinestyle{C}
+		{language=C,
+}
+
+\newenvironment{tabla}
+  {\par\bigskip\noindent\minipage{\linewidth}}
+  {\endminipage\par\bigskip}
+
+\newenvironment{figura}
+  {\par\bigskip\noindent\minipage{\linewidth}}
+  {\endminipage\par\bigskip}
+
+\newenvironment{pseudo}
+  {\par\noindent\minipage{\linewidth}}
+  {\endminipage\par\bigskip}
+%========================================================
+\begin{document}
+\renewcommand{\lstlistingname}{Algorithm}
+\setcounter{page}{1}
+\renewcommand{\refname}{Referencias}
+\renewcommand{\figurename}{Figura}
+\renewcommand{\tablename}{Tabla}
+\frenchspacing
+
+% \begin{tikzpicture}[overlay]
+%  \node at (138mm,2mm){\textsf{\scriptsize pISSN: 1390-650X / eISSN: 1390-860X}};
+% \end{tikzpicture}
+
+\input{silabeo}
+\membrete
+\input{configuracion_portada}
+
+%\begin{textblock}{12.4}(0,10)
+\begin{textblock}{12.4}(0,10)%Modificar Editor Ingenius cuando se inserte Creative Commons
+\adscripcion
+\end{textblock}
+%========================================================
+\input{sections/00_resumen}
+
+\begin{multicols}{2}
+\raggedcolumns
+%========================================================
+\input{sections/01_introduccion}
+\input{sections/02_materiales_metodos}
+\input{sections/03_resultados_discusion}
+\input{sections/04_conclusiones}
+\input{sections/05_agradecimientos}
+
+
+\bibliography{referencias.bib}
+\bibliographystyle{IEEEtran}
+\end{multicols}
+\end{document}
