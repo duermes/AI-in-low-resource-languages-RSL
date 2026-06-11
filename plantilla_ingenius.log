@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.4.12)  4 JUN 2026 11:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.4.12)  11 JUN 2026 11:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1446,7 +1446,14 @@ File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ftex.def
 File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count410
-) (plantilla_ingenius.aux)
+) (plantilla_ingenius.aux
+
+LaTeX Warning: Label `figura5' multiply defined.
+
+
+LaTeX Warning: Label `figura6' multiply defined.
+
+)
 \openout1 = `plantilla_ingenius.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 138.
@@ -1487,8 +1494,7 @@ Package microtype Info: Patching command `\showhyphens'.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
-
-(C:\Users\Lorena\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-cmr.cfg
+ (C:\Users\Lorena\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
@@ -1705,42 +1711,54 @@ File: figures/fig4.png Graphic file (type png)
 Package pdftex.def Info: figures/fig4.png  used on input line 18.
 (pdftex.def)             Requested size: 227.62204pt x 131.21944pt.
  [4 <./figures/fig1.png (PNG copy)> <./figures/fig3.png (PNG copy)>]
-<figures/fig5.png, id=90, 1011.78pt x 497.60907pt>
+<figures/fig8.png, id=90, 673.01437pt x 421.575pt>
+File: figures/fig8.png Graphic file (type png)
+<use figures/fig8.png>
+Package pdftex.def Info: figures/fig8.png  used on input line 28.
+(pdftex.def)             Requested size: 227.62204pt x 142.58096pt.
+<figures/fig9.png, id=91, 907.89188pt x 478.03593pt>
+File: figures/fig9.png Graphic file (type png)
+<use figures/fig9.png>
+Package pdftex.def Info: figures/fig9.png  used on input line 41.
+(pdftex.def)             Requested size: 227.62204pt x 119.85152pt.
+<figures/fig5.png, id=92, 1011.78pt x 497.60907pt>
 File: figures/fig5.png Graphic file (type png)
 <use figures/fig5.png>
-Package pdftex.def Info: figures/fig5.png  used on input line 28.
+Package pdftex.def Info: figures/fig5.png  used on input line 67.
 (pdftex.def)             Requested size: 227.62204pt x 111.94202pt.
-<figures/fig6.png, id=91, 902.6222pt x 520.19344pt>
+ [5 <./figures/fig4.png> <./figures/fig8.png (PNG copy)> <./figures/fig9.png (P
+NG copy)>]
+<figures/fig6.png, id=101, 902.6222pt x 520.19344pt>
 File: figures/fig6.png Graphic file (type png)
 <use figures/fig6.png>
-Package pdftex.def Info: figures/fig6.png  used on input line 36.
+Package pdftex.def Info: figures/fig6.png  used on input line 75.
 (pdftex.def)             Requested size: 227.62204pt x 131.18309pt.
-<figures/fig7.png, id=92, 1107.38719pt x 535.2497pt>
+<figures/fig7.png, id=102, 1107.38719pt x 535.2497pt>
 File: figures/fig7.png Graphic file (type png)
 <use figures/fig7.png>
-Package pdftex.def Info: figures/fig7.png  used on input line 44.
+Package pdftex.def Info: figures/fig7.png  used on input line 83.
 (pdftex.def)             Requested size: 227.62204pt x 110.01274pt.
 ) (sections/04_conclusiones.tex)
-(sections/05_agradecimientos.tex) (plantilla_ingenius.bbl [5 <./figures/fig4.pn
-g> <./figures/fig5.png (PNG copy)> <./figures/fig6.png (PNG copy)> <./figures/f
-ig7.png (PNG copy)>]) [6] (plantilla_ingenius.aux)
+(sections/05_agradecimientos.tex) (plantilla_ingenius.bbl [6 <./figures/fig5.pn
+g (PNG copy)> <./figures/fig6.png (PNG copy)> <./figures/fig7.png (PNG copy)>])
+[7] (plantilla_ingenius.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
  ***********
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `plantilla_ingenius.out' has not changed.
 (rerunfilecheck)             Checksum: AC2B104C2FC3706968BADBBC374FC079;774.
  ) 
 Here is how much of TeX's memory you used:
- 45089 strings out of 467871
- 1003197 string characters out of 5417892
- 1557485 words of memory out of 5000000
- 72712 multiletter control sequences out of 15000+600000
- 738360 words of font info for 225 fonts, out of 8000000 for 9000
+ 45114 strings out of 467871
+ 1003639 string characters out of 5417892
+ 1557600 words of memory out of 5000000
+ 72726 multiletter control sequences out of 15000+600000
+ 738698 words of font info for 229 fonts, out of 8000000 for 9000
  1326 hyphenation exceptions out of 8191
  99i,12n,108p,4124b,912s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Lorena/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.p
@@ -1756,9 +1774,9 @@ r6.pfb><C:/Users/Lorena/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr
 .pfb><C:/Users/Lorena/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri1
 0.pfb><C:/Users/Lorena/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyr
 e/qagr.pfb>
-Output written on plantilla_ingenius.pdf (6 pages, 1747347 bytes).
+Output written on plantilla_ingenius.pdf (7 pages, 1856689 bytes).
 PDF statistics:
- 183 PDF objects out of 1000 (max. 8388607)
- 32 named destinations out of 1000 (max. 500000)
- 56411 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 193 PDF objects out of 1000 (max. 8388607)
+ 35 named destinations out of 1000 (max. 500000)
+ 56421 words of extra memory for PDF output out of 61914 (max. 10000000)
 
