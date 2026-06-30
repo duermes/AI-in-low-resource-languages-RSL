@@ -107,4 +107,89 @@ M.~Yoshida, V.~Duangchinda, and N.~Ruangrit, ``{AI-Supported Learning in Online
   \url{https://doi.org/10.34190/ejel.24.1.4409}
 \BIBentrySTDinterwordspacing
 
+\bibitem{Wakhare2026}
+P.~Wakhare, Y.~D. Sinkar, S.~Bhilegaonkar, and R.~A. Jamadar, ``Machine
+  translation for folk narratives in education,'' \emph{ShodhKosh: Journal of
+  Visual and Performing Arts}, vol.~7, pp. 243 -- 253, 2026.
+
+\bibitem{Vallejo-Huanga2026}
+D.~Vallejo-Huanga, M.~F. Alban, B.~Gualoto, R.~Andrade, and P.~Morillo,
+  ``Sentiment analysis in kichwa language using nlp techniques and similarity
+  metrics,'' in \emph{CSAI 2025 - Proceedings of 2025 9th International
+  Conference on Computer Science and Artificial Intelligence}, 2026, pp. 486 --
+  491.
+
+\bibitem{Chu2025}
+Y.-H. Chu, S.~Zhu, S.-Y. Hung, B.-T. Lin, E.-S.~A. Lee, and R.~T.-H. Tsai,
+  ``Ataigi: An ai-powered multimodal learning app leveraging generative models
+  for low-resource taiwanese hokkien,'' in \emph{Proceedings of the 2025 Annual
+  Conference of the Nations of the Americas Chapter of the Association for
+  Computational Linguistics: Human Language Technologies: Long Papers,
+  NAACL-HLT 2025}, vol.~6, 2025, pp. 11 -- 19.
+
+\bibitem{Akallouch2025}
+O.~Akallouch, M.~Akallouch, and K.~Fardousse, ``Advances in amazigh language
+  technologies: A comprehensive survey across processing domains,''
+  \emph{Information (Switzerland)}, vol.~16, 2025.
+
+\bibitem{Zhang2024}
+\BIBentryALTinterwordspacing
+K.~Zhang, Y.~Choi, Z.~Song, T.~He, W.~Y. Wang, and L.~Li, ``Hire a linguist!:
+  Learning endangered languages in llms with in-context linguistic
+  descriptions,'' in \emph{Findings of the Association for Computational
+  Linguistics ACL 2024}.\hskip 1em plus 0.5em minus 0.4em\relax Association for
+  Computational Linguistics, 2024, pp. 15\,654--15\,669. [Online]. Available:
+  \url{https://aclanthology.org/2024.findings-acl.925}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Fakhreldin2025}
+M.~Fakhreldin, ``Developing a comprehensive nlp framework for indigenous
+  dialect documentation and revitalization,'' \emph{International Journal of
+  Advanced Computer Science and Applications}, vol.~16, pp. 815 -- 823, 2025.
+
+\bibitem{Ebrahimi2022}
+A.~Ebrahimi, M.~Mager, A.~Oncevay, V.~Chaudhary, L.~Chiruzzo, A.~Fan, J.~E.
+  Ortega, R.~Ramos, A.~Rios, I.~Meza-Ruiz, G.~A. Giménez-Lugo, E.~Mager,
+  G.~Neubig, A.~Palmer, R.~Coto-Solano, N.~T. Vu, and K.~Kann, ``Americasnli:
+  Evaluating zero-shot natural language understanding of pretrained
+  multilingual models in truly low-resource languages,'' in \emph{Proceedings
+  of the Annual Meeting of the Association for Computational Linguistics},
+  vol.~1, 2022, pp. 6279 -- 6299.
+
+\bibitem{Shen2024}
+L.~Shen, W.~Tan, S.~Chen, Y.~Chen, J.~Zhang, H.~Xu, B.~Zheng, P.~Koehn, and
+  D.~Khashabi, ``The language barrier: Dissecting safety challenges of llms in
+  multilingual contexts,'' in \emph{Proceedings of the Annual Meeting of the
+  Association for Computational Linguistics}, 2024, pp. 2668 -- 2680.
+
+\bibitem{Cavalin2024}
+P.~Cavalin, P.~H. Domingues, C.~Pinhanez, and J.~Nogima, ``Fixing rogue
+  memorization in many-to-one multilingual translators of
+  extremely-low-resource languages by rephrasing training samples,'' in
+  \emph{Proceedings of the 2024 Conference of the North American Chapter of the
+  Association for Computational Linguistics: Human Language Technologies, NAACL
+  2024}, vol.~1, 2024, pp. 4503 -- 4514.
+
+\bibitem{Chang2025}
+C.-C. Chang, Y.-H. Lin, Y.-H. Hsu, and I.-H. Fan, ``Integrating hybrid ai
+  approaches for enhanced translation in minority languages,'' \emph{Applied
+  Sciences (Switzerland)}, vol.~15, 2025.
+
+\bibitem{Liu2022}
+Z.~Liu, C.~Richardson, R.~Hatcher, and E.~Prud'Hommeaux, ``Not always about
+  you: Prioritizing community needs when developing endangered language
+  technology,'' in \emph{Proceedings of the Annual Meeting of the Association
+  for Computational Linguistics}, vol.~1, 2022, pp. 3933 -- 3944.
+
+\bibitem{Mager2023}
+M.~Mager, E.~Mager, K.~Kann, and N.~T. Vu, ``Ethical considerations for machine
+  translation of indigenous languages: Giving a voice to the speakers,'' in
+  \emph{Proceedings of the Annual Meeting of the Association for Computational
+  Linguistics}, vol.~1, 2023, pp. 4871 -- 4897.
+
+\bibitem{Rathnayake2026}
+H.~Rathnayake, J.~James, G.~Leoni, A.~Nicholas, C.~Watson, and P.~Keegan, ``A
+  review on speech emotion recognition for low-resource and indigenous
+  languages,'' \emph{Speech Communication}, vol. 176, 2026.
+
 \end{thebibliography}

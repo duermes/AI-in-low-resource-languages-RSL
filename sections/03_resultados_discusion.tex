@@ -52,31 +52,81 @@ La recopilación de la información se realizó tomando principalmente las pregu
 
 P: ¿De qué manera las tecnologías de Procesamiento de Lenguaje Natural (NLP) benefician la integración de la lengua materna en entornos educativos?
 
+Las tecnologías de NLP aportan positivamente en la integración de la lengua materna en entornos educativos al facilitar el desarrollo de herramientas de aprendizaje que ayudan con las limitaciones de la enseñanza tradicional como la marginación lingüística y falta de materiales debido a que las instituciones tienden a priorizar idiomas de alta difusión \cite{Wakhare2026}. Por ejemplo, la aplicación móvil Wawa fue desarrollada como una herramienta educativa para el aprendizaje de la lengua kichwa, al evaluarla en estudiantes de las comunidades del río Napo en Loreto (Perú) los resultados indicaron que Wawa es una herramienta efectiva para aprender Kichwa sobrepasando la enseñanza tradicional \cite{Vallejo-Huanga2026}. 
 
-I: ¿De qué manera las herramientas basadas en IA y LLMs mejoran la accesibilidad educativa?
+Asimismo, ATAIGI, que significa "aprender hokkien taiwanés", es una aplicación de aprendizaje del idioma hokkien taiwanés el cual combina varios modelos generativos: \textit{Taiwanese Hokkien Translation Model introduced} para traducir mandarín e inglés desde y hacia hokkien taiwanés; \textit{fine-tunning} con un modelo supervisado pre-entrenado \textit{Hokkien 13B}; \textit{DALL-E 3} de OpenAI API para texto a imagen; y \textit{Hokkien transliteration movel}. El estudio demuestra cerrar brechas comunicacionales e incrementar la competencia lingüística, se evaluó la aplicación en 25 participantes de los cuales tras un mes de uso semanal se registró un incremento medio de 18 puntos en las pruebas de competencia lingüística, además que el modelo llegó a superar los resultados medidos sobre GPT-4 y otros modelos base de \textit{LLaMA} \cite{Chu2025}. 
+Estas integraciones tecnológicas motivan a los estudiantes a vincular lo nuevo aprendido directamente con sus experiencias previas, apoyando el desarrollo cognitivo, razonamiento moral y la formación de su identidad social comunitaria \cite{Wakhare2026}.
 
-C: ¿Qué vacíos existen entre el desempeño de la IA en lenguas de alto recurso frente a las de bajos recursos?
+Con el fin de organizar la información, la tabla 3 sintetiza los hallazgos previamente mencionados.
 
-O: ¿Qué estrategias y metodologías son las más eficaces para mejorar la accesibilidad educativa?
+\begin{table}[H]
+\centering
+\captionof{table}{Aplicaciones de NLP para la integración de lenguas maternas en entornos educativos}
+\small
+    \begin{tabular}{p{2.2cm}p{4.8cm}}
+    \toprule
+    \multicolumn{2}{c}{\textbf{Wawa}} \\
+    \midrule
+    \textbf{Lengua} & Kichwa \\ \addlinespace
+    \textbf{Enfoque NLP} & Aplicación móvil educativa para el aprendizaje de lengua materna. \\ \addlinespace
+    \textbf{Aporte educativo} & Favorece el aprendizaje del kichwa en estudiantes de comunidades del río Napo. \\
+    \midrule
+    \multicolumn{2}{c}{\textbf{ATAIGI}} \\
+    \midrule
+    \textbf{Lengua} & Hokkien taiwanés \\ \addlinespace
+    \textbf{Enfoque NLP} & Traducción automática, fine-tuning de modelo Hokkien 13B, generación texto-imagen con DALL-E 3 y transliteración. \\ \addlinespace
+    \textbf{Aporte educativo} & Incremento medio de 18 puntos en competencia lingüística tras un mes de uso semanal en 25 participantes. \\
+    \bottomrule
+    \end{tabular}
+\label{tab:nlp_lengua_materna_educacion}
+\end{table}
 
 
+I: ¿De qué manera las herramientas basadas en Inteligencia Artificial (IA) y los Grandes Modelos de Lenguaje LLMs mejoran la accesibilidad educativa?
+Las herramientas basadas en IA y  LLMs mejoran la accesibilidad educativa al disminuir de manera efectiva las barreras lingüísticas. Por ejemplo, el desarrollo de aplicaciones multimodales basados en modelos generativos permite crear entornos de aprendizaje interactivos \cite{Chu2025}. Del mismo modo, la incorporación de reconocimiento de voz ayuda a entrenar la pronunciación oral \cite{Akallouch2025}.
+
+La figura 6 muestra los diferentes tipos de área de implementación NLP que abarcaron las investigaciones, es posible observar que la mayoría se concentra en herramientas de traducción automática, seguida por reconocimiento automático de voz y la segmentación morfológica. Para hacer frente a la escasez de corpus paralelos se usó descripciones lingüísticas y diccionarios mediante \textit{in-context learning} logrando una alta eficacia incluso en áreas de razonamiento matemático \cite{Zhang2024}. Asimismo, la integración de redes neuronales con técnicas de meta-aprendizaje como \textit{Model-Agnostic Meta-Learning} (MAML) permite traducciones y transcripciones en tiempo real \cite{Fakhreldin2025}. 
 
 
 \begin{figure}[H]
 \begin{center}
-\includegraphics[width=8cm]{figures/fig5.png}
+\includegraphics[width=8cm]{figures/fig10.png}
 \end{center}
-\caption{Tareas de Procesamiento de Lenguaje Natural (NLP)}
-\label{figura5}
-\end{figure}
-
-\begin{figure}[H]
-\begin{center}
-\includegraphics[width=8cm]{figures/fig6.png}
-\end{center}
-\caption{Arquitecturas y Modelos de Inteligencia Artificial}
+\caption{Aplicaciones NLP}
 \label{figura6}
 \end{figure}
+
+
+C: ¿Qué vacíos existen entre el desempeño de la IA en lenguas de alto recurso frente a las de bajos recursos?
+Existen brechas significativas en el desempeño de herramientas basadas en IA entre lenguas de alto recurso y lenguas de bajos recursos. Por ejemplo, en tareas de comprensión semántica, en \cite{Ebrahimi2022} se evaluó el modelo multilingüe \textit{Cross-Lingual Language Modeling-Roberta}(XLM-R) en un escenario \textit{zero-shot} sobre 10 lenguas indígenas, obteniendo una precisión promedio de solo 38.48\%. De manera similar, en \cite{Zhang2024} se observó que, bajo en enfoques \textit{zero-shot}, los LLMs obtienen valores de \textit{BiLingual Evaluation Understudy} (BLEU) menores a 1 en la mayoría de las 8 lenguas evaluadas. Por otro lado, estas brechas también se evidencian en aspectos relacionados con la seguridad y alineamiento de los LLMs, en \cite{Shen2024} se reportó que los modelos tienden a generar respuestas más dañinas cuando los \textit{prompts} están escritos en lenguas de bajos recursos, por ejemplo, en GPT-4, la tasa de respuestas dañinas fue de 35\% en comparación con 1\% en lenguas de alto recurso; asimismo, en el modelo Llama-2, la capacidad de seguimiento de instrucciones en lenguas de bajos recursos fue de 24.8\% en comparación al 33\% que se obtiene en lenguas de altos recursos. También, la escasez de corpus paralelos induce anomalías como la memorización (\textit{rogue memorization}) de respuestas exactas en vez de razonar, donde el modelo repite frases del entrenamiento en lugar de traducir \cite{Cavalin2024}.
+
+En conclusión, las lenguas de bajo recursos no solo enfrentan limitaciones en cuanto a rendimiento, sino también problemas asociados a la seguridad y confiabilidad de los modelos. A modo de síntesis, la tabla 3 resume las diferencias identificadas en los estudios revisados.
+
+\begin{table}[H]
+\centering
+\captionof{table}{Comparación de desempeño de la IA entre lenguas de alto y bajo recurso}
+\small
+    \begin{tabular}{p{2.2cm}p{4.8cm}}
+    \toprule
+    \textbf{Métrica} & \textbf{Comparación} \\
+    \midrule
+    Comprensión semántica & XLM-R obtuvo una precisión promedio de 38.48\% en un escenario \textit{zero-shot} sobre 10 lenguas indígenas \cite{Ebrahimi2022}. \\ \addlinespace
+
+    Traducción automática & Los LLMs alcanzaron valores de BLEU menores a 1 en la mayoría de las 8 lenguas evaluadas \cite{Zhang2024}. \\ \addlinespace
+
+    Seguridad y alineamiento & GPT-4 presentó una tasa de respuestas dañinas de 35\% en lenguas de bajos recursos, frente a 1\% en lenguas de alto recurso \cite{Shen2024}. \\ \addlinespace
+
+    Seguimiento de instrucciones & Llama-2 alcanzó 24.8\% de seguimiento de instrucciones en lenguas de bajos recursos, frente a 33\% en lenguas de alto recurso \cite{Shen2024}. \\ \addlinespace
+
+    Confiabilidad del modelo & La escasez de corpus paralelos puede inducir \textit{rogue memorization} \cite{Cavalin2024}. \\
+    \bottomrule
+    \end{tabular}
+\label{tab:brechas_ia_lenguas}
+\end{table}
+
+
+O: ¿Qué estrategias y metodologías son las más eficaces para mejorar la accesibilidad educativa?
+Las estrategias y metodologías más eficaces identificadas son las que combinan herramientas algorítmicas como el uso de meta-aprendizaje (MAML) \cite{Fakhreldin2025}, implementación de arquitecturas híbridas \cite{Chang2025}, inyección de conocimiento lingüístico \cite{Zhang2024}; y aquellas que tienen un enfoque participativo con la población de estudio como en \cite{Liu2022} donde se consulta directamente con maestros y hablantes nativos, o en \cite{Mager2023} que garantizan la soberanía de los datos a las comunidades indígenas garantizando de esta manera la distorsión del conocimiento \cite{Rathnayake2026}
 
 \begin{figure}[H]
 \begin{center}
@@ -85,6 +135,17 @@ O: ¿Qué estrategias y metodologías son las más eficaces para mejorar la acce
 \caption{Estrategias para Mitigar la Escasez de Datos}
 \label{figura7}
 \end{figure}
+
+La figura 7 muestra como el \textit{transfer learning}, modelos multilingües y el aumento de datos son los enfoques técnicos más frecuentes para mitigar la escasez de datos, en \cite{Liu2022} \cite{Chang2025} se evidencia que la falta de corpus digitalizados representa una de las barreras principales que impide el desarrollo eficaz de tecnologías de NLP.
+
+
+% \begin{figure}[H]
+% \begin{center}
+% \includegraphics[width=8cm]{figures/fig6.png}
+% \end{center}
+% \caption{Arquitecturas y Modelos de Inteligencia Artificial}
+% \label{figura6}
+% \end{figure}
 
 % Estos dos apartados suelen aparecer juntos en muchos trabajos. No se deben confundiCoocurrenciacr esta discusión o análisis con la obtención de conclusiones, algo que depende tanto de los resultados y de su análisis como del marco teórico y de los objetivos.
 
@@ -114,3 +175,4 @@ O: ¿Qué estrategias y metodologías son las más eficaces para mejorar la acce
 
 
 %========================================================
+

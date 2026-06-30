@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.4.12)  11 JUN 2026 11:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.4.12)  21 JUN 2026 16:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1448,9 +1448,6 @@ File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count410
 ) (plantilla_ingenius.aux
 
-LaTeX Warning: Label `figura5' multiply defined.
-
-
 LaTeX Warning: Label `figura6' multiply defined.
 
 )
@@ -1711,37 +1708,69 @@ File: figures/fig4.png Graphic file (type png)
 Package pdftex.def Info: figures/fig4.png  used on input line 18.
 (pdftex.def)             Requested size: 227.62204pt x 131.21944pt.
  [4 <./figures/fig1.png (PNG copy)> <./figures/fig3.png (PNG copy)>]
-<figures/fig8.png, id=90, 673.01437pt x 421.575pt>
+<figures/fig8.png, id=90, 980.16188pt x 536.75531pt>
 File: figures/fig8.png Graphic file (type png)
 <use figures/fig8.png>
 Package pdftex.def Info: figures/fig8.png  used on input line 28.
-(pdftex.def)             Requested size: 227.62204pt x 142.58096pt.
+(pdftex.def)             Requested size: 227.62204pt x 124.64688pt.
 <figures/fig9.png, id=91, 907.89188pt x 478.03593pt>
 File: figures/fig9.png Graphic file (type png)
 <use figures/fig9.png>
 Package pdftex.def Info: figures/fig9.png  used on input line 41.
 (pdftex.def)             Requested size: 227.62204pt x 119.85152pt.
-<figures/fig5.png, id=92, 1011.78pt x 497.60907pt>
-File: figures/fig5.png Graphic file (type png)
-<use figures/fig5.png>
-Package pdftex.def Info: figures/fig5.png  used on input line 67.
-(pdftex.def)             Requested size: 227.62204pt x 111.94202pt.
  [5 <./figures/fig4.png> <./figures/fig8.png (PNG copy)> <./figures/fig9.png (P
 NG copy)>]
-<figures/fig6.png, id=101, 902.6222pt x 520.19344pt>
-File: figures/fig6.png Graphic file (type png)
-<use figures/fig6.png>
-Package pdftex.def Info: figures/fig6.png  used on input line 75.
-(pdftex.def)             Requested size: 227.62204pt x 131.18309pt.
-<figures/fig7.png, id=102, 1107.38719pt x 535.2497pt>
+Underfull \hbox (badness 10000) in paragraph at lines 77--77
+[]|\T1/lmr/m/n/9 (+20) Traducción au-tomática, fine-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--77
+\T1/lmr/m/n/9 (+20) ge-ne-ra-ción texto-imagen con
+ []
+
+<figures/fig10.png, id=108, 1131.47719pt x 572.1375pt>
+File: figures/fig10.png Graphic file (type png)
+<use figures/fig10.png>
+Package pdftex.def Info: figures/fig10.png  used on input line 93.
+(pdftex.def)             Requested size: 227.62204pt x 115.09769pt.
+[6 <./figures/fig10.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 113--113
+[]|\T1/lmr/m/n/9 (+20) Comprensión
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 117--117
+[]|\T1/lmr/m/n/9 (+20) Seguridad y
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 119--119
+[]|\T1/lmr/m/n/9 (+20) Llama-2 al-canzó 24.8% de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 119--119
+\T1/lmr/m/n/9 (+20) seguimiento de in-struc-ciones
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--121
+[]|\T1/lmr/m/n/9 (+20) Confiabilidad
+ []
+
+<figures/fig7.png, id=138, 1107.38719pt x 535.2497pt>
 File: figures/fig7.png Graphic file (type png)
 <use figures/fig7.png>
-Package pdftex.def Info: figures/fig7.png  used on input line 83.
+Package pdftex.def Info: figures/fig7.png  used on input line 133.
 (pdftex.def)             Requested size: 227.62204pt x 110.01274pt.
-) (sections/04_conclusiones.tex)
-(sections/05_agradecimientos.tex) (plantilla_ingenius.bbl [6 <./figures/fig5.pn
-g (PNG copy)> <./figures/fig6.png (PNG copy)> <./figures/fig7.png (PNG copy)>])
-[7] (plantilla_ingenius.aux)
+) (sections/04_conclusiones.tex) (sections/05_agradecimientos.tex)
+(plantilla_ingenius.bbl [7 <./figures/fig7.png (PNG copy)>] [8]
+Underfull \hbox (badness 5302) in paragraph at lines 179--183
+[]\T1/lmr/m/n/10 (+20) Z. Liu, C. Richard-son, R. Hatcher, and
+ []
+
+) [9] (plantilla_ingenius.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
@@ -1754,11 +1783,11 @@ Package rerunfilecheck Info: File `plantilla_ingenius.out' has not changed.
 (rerunfilecheck)             Checksum: AC2B104C2FC3706968BADBBC374FC079;774.
  ) 
 Here is how much of TeX's memory you used:
- 45114 strings out of 467871
- 1003639 string characters out of 5417892
- 1557600 words of memory out of 5000000
- 72726 multiletter control sequences out of 15000+600000
- 738698 words of font info for 229 fonts, out of 8000000 for 9000
+ 45191 strings out of 467871
+ 1004547 string characters out of 5417892
+ 1560211 words of memory out of 5000000
+ 72736 multiletter control sequences out of 15000+600000
+ 745935 words of font info for 255 fonts, out of 8000000 for 9000
  1326 hyphenation exceptions out of 8191
  99i,12n,108p,4124b,912s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Lorena/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.p
@@ -1772,11 +1801,12 @@ r12.pfb><C:/Users/Lorena/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lm
 r6.pfb><C:/Users/Lorena/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr
 8.pfb><C:/Users/Lorena/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr9
 .pfb><C:/Users/Lorena/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri1
-0.pfb><C:/Users/Lorena/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyr
+0.pfb><C:/Users/Lorena/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri
+9.pfb><C:/Users/Lorena/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyr
 e/qagr.pfb>
-Output written on plantilla_ingenius.pdf (7 pages, 1856689 bytes).
+Output written on plantilla_ingenius.pdf (9 pages, 1768235 bytes).
 PDF statistics:
- 193 PDF objects out of 1000 (max. 8388607)
- 35 named destinations out of 1000 (max. 500000)
- 56421 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 250 PDF objects out of 1000 (max. 8388607)
+ 51 named destinations out of 1000 (max. 500000)
+ 58464 words of extra memory for PDF output out of 61914 (max. 10000000)
 
