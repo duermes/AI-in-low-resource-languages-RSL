@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.4.12)  5 JUL 2026 19:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.4.12)  8 JUL 2026 16:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1781,12 +1781,12 @@ LaTeX Warning: Citation `Santiago-Benito2025' on page 7 undefined on input line
 LaTeX Warning: Citation `Manimaran2024' on page 7 undefined on input line 146.
 
 [7 <./figures/fig7.png (PNG copy)>]) (sections/04_conclusiones.tex)
-(sections/05_agradecimientos.tex) (plantilla_ingenius.bbl [8]
+(sections/05_agradecimientos.tex) (plantilla_ingenius.bbl [8] [9]
 Underfull \hbox (badness 5302) in paragraph at lines 179--183
 []\T1/lmr/m/n/10 (+20) Z. Liu, C. Richard-son, R. Hatcher, and
  []
 
-) [9] (plantilla_ingenius.aux)
+) [10] (plantilla_ingenius.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
@@ -1802,11 +1802,11 @@ Package rerunfilecheck Info: File `plantilla_ingenius.out' has not changed.
 (rerunfilecheck)             Checksum: E47DAA54E931A7C5CB8DAC1B0094EAE9;879.
  ) 
 Here is how much of TeX's memory you used:
- 45176 strings out of 467871
- 1004380 string characters out of 5417892
+ 45183 strings out of 467871
+ 1004453 string characters out of 5417892
  1562684 words of memory out of 5000000
  72718 multiletter control sequences out of 15000+600000
- 746076 words of font info for 256 fonts, out of 8000000 for 9000
+ 746372 words of font info for 259 fonts, out of 8000000 for 9000
  1326 hyphenation exceptions out of 8191
  99i,12n,108p,4124b,912s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Lorena/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.p
@@ -1823,9 +1823,9 @@ r6.pfb><C:/Users/Lorena/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr
 0.pfb><C:/Users/Lorena/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri
 9.pfb><C:/Users/Lorena/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyr
 e/qagr.pfb>
-Output written on plantilla_ingenius.pdf (9 pages, 1773708 bytes).
+Output written on plantilla_ingenius.pdf (10 pages, 1778293 bytes).
 PDF statistics:
- 263 PDF objects out of 1000 (max. 8388607)
- 52 named destinations out of 1000 (max. 500000)
+ 267 PDF objects out of 1000 (max. 8388607)
+ 53 named destinations out of 1000 (max. 500000)
  58472 words of extra memory for PDF output out of 61914 (max. 10000000)
 
