@@ -192,4 +192,28 @@ H.~Rathnayake, J.~James, G.~Leoni, A.~Nicholas, C.~Watson, and P.~Keegan, ``A
   review on speech emotion recognition for low-resource and indigenous
   languages,'' \emph{Speech Communication}, vol. 176, 2026.
 
+\bibitem{Su2025}
+Z.~Su, Z.~Zhang, G.~Xu, J.~Liu, H.~Xu, T.~Zhang, and Y.~Dong, ``Multilingual
+  encoder knows more than you realize: Shared weights pretraining for extremely
+  low-resource languages,'' in \emph{Proceedings of the Annual Meeting of the
+  Association for Computational Linguistics}, vol.~1, 2025, pp. 18\,259 --
+  18\,270.
+
+\bibitem{Park2025}
+G.~Park, J.~Park, and H.~Lee, ``Cross-lingual summarization for low-resource
+  languages using multilingual retrieval-based in-context learning,''
+  \emph{Applied Sciences (Switzerland)}, vol.~15, 2025.
+
+\bibitem{Santiago-Benito2025}
+H.~Santiago-Benito, D.-M. Córdova-Esparza, J.~Terven, N.-A. Castro-Sánchez,
+  T.~García-Ramirez, J.-A. Romero-González, and J.~M. Álvarez Alvarado,
+  ``Mixtec–spanish parallel text dataset for language technology
+  development,'' \emph{Data}, vol.~10, 2025.
+
+\bibitem{Manimaran2024}
+Manimaran, M.~H. Syed, M.~S. Kumar, Selvanayaki, G.~Sunitha, and A.~Manna,
+  ``Enhancing asian indigenous language processing through deep learning-based
+  handwriting recognition and optimization techniques,'' \emph{ACM Transactions
+  on Asian and Low-Resource Language Information Processing}, vol.~23, 2024.
+
 \end{thebibliography}
