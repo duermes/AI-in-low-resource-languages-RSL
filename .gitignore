@@ -10,7 +10,6 @@ logs/**
 old_format/
 
 # Archivos generados por LaTeX
-*.aux
 *.bbl
 *.blg
 *.fdb_latexmk
