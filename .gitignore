@@ -8,3 +8,19 @@ pnpm-debug.log*
 logs/
 logs/**
 old_format/
+
+# Archivos generados por LaTeX
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.lof
+*.lot
+*.out
+*.run.xml
+*.snm
+*.synctex.gz
+*.toc
+*.vrb
+plantilla_ingenius.pdf
